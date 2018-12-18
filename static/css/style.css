@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+ 
+
+@font-face {
+   font-family: 'cassandra_personal_useregular';
+   src: url('fonts/') format('woff2'),
+        url('fonts/cassandra_personal_use-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'beyond_wonderlandregular';
+   src: url('fonts/beyond_wonderland-webfont.woff2') format('woff2'),
+        url('fonts/beyond_wonderland-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+.centered2 {
+   position: absolute;
+   color: white;
+   top: 29%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 100px;
+   font-family: 'beyond_wonderlandregular';
+   }
+
+.jumbotron{
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url("../IMG_7600.jpg") fixed;
+   background-position: 0% 51%; 
+   background-size: cover;
+   background-repeat:no-repeat;
+   height: 100%;
+   
+    }
+
+.jumbotron2{
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url("../Xbox-Wallpaper-13-3840x2160.jpg") fixed;
+   background-position: 0% 51%; 
+   background-size: cover;
+   background-repeat:no-repeat;
+   height: 70%;
+
+   }
+
+.centered{
+   position: absolute;
+   color: white;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 35px;
+   font-family: 'beyond_wonderlandregular';
+}
+
+.Aboutme{
+   position: absolute;
+   left: 45%;
+   font-family: 'Srisakdi,Trebuchet MS';
+}
+
+.desc{
+   position: absolute;
+   top: 110%;
+   left: 20%;
+   
+}
+
+.edit{
+   height: 300px;
+   width: 500px;
+}
+
+.abt{
+   color: white;
+   font-size: 17px;
+   font-family: 'Aref Ruqaa', serif;
+}
+
+.tech{
+   height: 5px;
+   width: 5px;
+
+}
