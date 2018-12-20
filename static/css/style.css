@@ -34,18 +34,18 @@
    background-position: 0% 51%; 
    background-size: cover;
    background-repeat:no-repeat;
-   height: 100%;
+   height: 95%;
    
     }
 
-.jumbotron2{
-   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url("../Xbox-Wallpaper-13-3840x2160.jpg") fixed;
+/* .jumbotron2{
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url("Xbox-Wallpaper-13-3840x2160.jpg") fixed;
    background-position: 0% 51%; 
    background-size: cover;
    background-repeat:no-repeat;
    height: 70%;
 
-   }
+   } */
 
 .centered{
    position: absolute;
@@ -73,16 +73,50 @@
 .edit{
    height: 300px;
    width: 500px;
+   background: linear-gradient(rgba(0, 0, 0, 0.843),rgba(0, 0, 0, 0.864) );
 }
 
 .abt{
    color: white;
-   font-size: 17px;
+   font-size: 27px;
    font-family: 'Aref Ruqaa', serif;
 }
 
 .tech{
-   height: 5px;
-   width: 5px;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url("Xbox-Wallpaper-13-3840x2160.jpg") fixed;
+   background-position: 0% 51%; 
+   background-size: cover;
+   background-repeat:no-repeat;
+   height: 100%;
 
+}
+.projectcard{
+    position: absolute;
+    color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85) );
+
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h7{
+   color: white;
+   font-family: 'Aref Ruqaa', serif;
+   font-size: 19px;
+}
+.abt2{
+   position: absolute;
+   top: 95%;
+   right: -10%;
+}
+.abt3{
+   position: absolute;
+   top: 95%;
+   right: 80%;
+}
+.card-body{
+   color: chocolate;
 }
